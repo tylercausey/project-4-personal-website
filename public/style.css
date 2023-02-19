@@ -1,0 +1,164 @@
+/* General formatting */
+* {
+    background-color: #0E1123;
+    width: 100%;
+    height: 100vh;  
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#app{
+    height: 100%;
+    width: 100%;
+}
+
+#all-content{
+    height: 100%;
+    width: 100%;
+}
+
+/* This is the Header formatting */
+header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#header-box{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    width: 85%;
+    height: 100%;
+    border-bottom: .1rem solid #FAED23;
+}
+
+#button-box{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 300px;
+    padding-bottom: 1.5rem;
+}
+
+.button-anchors{
+    height: fit-content;
+    width: fit-content;
+    font-family:'Cairo', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white
+}
+
+span{
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* This is the Main (the actual body) formatting */
+main {
+    height: calc(100% - 12.5rem);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 7.5%;
+}
+
+#portrait-box{
+    display: block;
+    height: 26rem;
+    width: 20.8rem;
+    border: .1rem solid #FAED23;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#portrait{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#about-me-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:space-between;
+    height: 24rem;
+    width: fit-content;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+#name{
+    height: 16rem;
+    width: fit-content;
+    font-family: 'Cairo', sans-serif;
+    color: #9A98CB;
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    line-height: 100%;
+
+}
+
+#job-title{
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    font-size: xx-large;
+    font-weight: 550;
+    margin: 0 0 0 0;
+    letter-spacing: 2px;
+}
+
+#intro{
+    height: fit-content;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+    margin: 0 0 0 0;
+    color: #9A98CB;
+    font-size: x-large;
+}
+
+ /* This is the Footer formatting */
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+  }
+
+#footer-box {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 80%;
+    border-top: .1rem solid #FAED23;
+}
+
+.icon {
+    height: 2.7rem;
+    width: 2.7rem;
+}
+
+.icon-anchor {
+    height: fit-content;
+    width: fit-content;
+}
+
+#icon-box {
+    width: 12rem;
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
