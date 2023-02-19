@@ -3,7 +3,7 @@
 const Main = () => { return (
     <main>
         <div id="portrait-box">
-            <img id="portrait" src="Tori.jpg" alt="This is a picture of me."></img>
+            <img id="portrait" src="tyler-at-temple.png" alt="This is a picture of me."></img>
         </div>
         <div id='about-me-text'>
             <p id='name'>Tyler <br></br> Causey</p>
