@@ -1,12 +1,13 @@
-
+import React from "react"
+import { Link } from "react-router-dom"
 
 const Header = () => { return (
     <header>
         <div id="header-box">
             <div id="button-box">
-                <a className="button-anchors" href="index.html"><span> HOME </span></a>
-                <a className="button-anchors" href="about.html"><span> ABOUT </span></a>
-                <a className="button-anchors" href="portfolio.html"><span> PORTFOLIO </span></a>  
+                <Link className="button-anchors" to='/'><span> HOME </span></Link>
+                <Link className="button-anchors" to='/about-me'><span> ABOUT </span></Link>
+                <Link className="button-anchors" to='/portfolio'><span> PORTFOLIO </span></Link>  
             </div>
         </div>
     </header>
